@@ -30,7 +30,7 @@ module.exports = {
     },
     fontFamily: {
       Jost: ['Jost', 'sans-serif'],
-      Lobster: ['Lobster', 'sans-seri'],
+      Lobster: ['Lobster', 'sans-serif'],
     },
     container: {
       center: true,

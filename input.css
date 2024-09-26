@@ -5,7 +5,15 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-950 font-Jost tracking-wider text-white;
+  @apply bg-green-950 font-Jost tracking-wider text-white;
+}
+
+section {
+  @apply py-20 md:py-28;
+}
+
+h1 {
+  @apply text-3xl font-bold md:text-4xl xl:text-5xl;
 }
 
 .nav-link {
@@ -14,4 +22,25 @@ body {
 
 .nav-link:hover {
   @apply text-yellow-500;
+}
+
+/* button */
+.btn {
+  @apply rounded-md border border-yellow-500 bg-yellow-500 px-5 py-2 duration-300;
+}
+
+.btn span {
+  @apply font-bold;
+}
+
+.btn:hover {
+  @apply opacity-90;
+}
+
+.btn_outline {
+  @apply bg-transparent;
+}
+
+.btn_outline:hover {
+  @apply bg-yellow-500;
 }

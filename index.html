@@ -533,16 +533,117 @@
     </main>
 
     <!--~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~-->
-    <footer>
+    <footer class="relative bg-yellow-100 to-green-950 pb-10 pt-20 md:pt-28">
       <!-- newsletter -->
-
+      <div
+        class="container absolute left-0 right-0 top-0 -translate-y-1/2 text-white"
+      >
+        <div class="space-y-5 rounded-md bg-green-900 px-10 pb-10 pt-5">
+          <h3>
+            <span class="text-yellow-500">Subscribe</span> to our newsletter
+          </h3>
+          <div class="flex flex-col gap-1 md:flex-row">
+            <input
+              type="text"
+              placeholder="Your Email Address"
+              class="w-full rounded-md px-5 py-3 text-green-900 outline-none"
+            />
+            <button
+              type="button"
+              class="flex items-center justify-center gap-1 rounded-md bg-green-950 px-5 py-3 duration-300 hover:opacity-80"
+            >
+              <span>Subscribe</span>
+              <i class="ri-send-plane-2-fill"></i>
+            </button>
+          </div>
+        </div>
+      </div>
       <!-- social icon -->
-
+      <div class="container mb-10 mt-16">
+        <div class="relative border-b border-green-500">
+          <div
+            class="absolute left-0 right-0 top-0 mx-auto max-w-36 -translate-y-1/2 transform"
+          >
+            <div class="space-x-2 bg-yellow-100 text-center text-lg">
+              <i
+                class="ri-facebook-fill cursor-pointer text-green-950 duration-300 hover:text-yellow-500"
+              ></i>
+              <i
+                class="ri-twitter-x-line cursor-pointer text-base text-green-950 duration-300 hover:text-yellow-500"
+              ></i>
+              <i
+                class="ri-instagram-line cursor-pointer text-green-950 duration-300 hover:text-yellow-500"
+              ></i>
+              <i
+                class="ri-linkedin-fill cursor-pointer text-green-950 duration-300 hover:text-yellow-500"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- content -->
-
+      <div
+        class="container grid grid-cols-1 gap-8 text-center md:grid-cols-2 md:text-start lg:grid-cols-3 xl:grid-cols-4"
+      >
+        <!-- item 1 -->
+        <div class="inline-block to-green-700 text-center text-7xl">
+          <div>
+            <i class="ri-leaf-fill text-green-700"></i>
+            <p class="font-Lobster text-xl text-green-700 sm:text-2xl">
+              IndorePlants.
+            </p>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div>
+          <p class="mb-5 text-xl font-bold text-green-950">Quick Link</p>
+          <div class="flex flex-col gap-1">
+            <a href="#" class="text-green-950">Plants</a>
+            <a href="#" class="text-green-950">Flowers</a>
+            <a href="#" class="text-green-950">Gerdening</a>
+            <a href="#" class="text-green-950">Seeds</a>
+            <a href="#" class="text-green-950">Shipping</a>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div>
+          <p class="mb-5 text-xl font-bold text-green-950">Popular Services</p>
+          <div class="flex flex-col gap-1">
+            <a href="#" class="text-green-950">Tree Planting</a>
+            <a href="#" class="text-green-950">Grass Cutting</a>
+            <a href="#" class="text-green-950">Weeds Control</a>
+            <a href="#" class="text-green-950">Project</a>
+          </div>
+        </div>
+        <!-- item 4 -->
+        <div>
+          <p class="mb-5 text-xl font-bold text-green-950">Contact Us</p>
+          <div class="flex flex-col gap-1">
+            <a href="tel:+8833378901" class="text-green-950">+88 333 78 901</a>
+            <a href="mailto:lightcodecamp@gmail.com" class="text-green-950"
+              >lightcodecamp@gmail.com</a
+            >
+            <br />
+            <p class="text-green-950">
+              1234 Tailwind Ave, CSS City, Webland 56789, USA
+            </p>
+          </div>
+        </div>
+      </div>
       <!-- copyright -->
-
+      <div class="container">
+        <p class="mt-10 text-center opacity-50">
+          Copyright &copy; 2024 LightCode. All rights reserved.
+        </p>
+      </div>
       <!-- floral image -->
+      <div class="pointer-events-none absolute bottom-0 left-0 opacity-20">
+        <img
+          src="assets/img/floral-1.png"
+          alt="floral_image"
+          class="w-full lg:w-1/2"
+        />
+      </div>
     </footer>
 
     <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->

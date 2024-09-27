@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply overflow-x-hidden scroll-smooth;
+}
+
 body {
   @apply bg-green-950 font-Jost tracking-wider text-white;
 }
@@ -36,6 +40,10 @@ h3 {
   @apply font-Lobster text-yellow-500;
 }
 
+/* active link */
+.active {
+  @apply text-yellow-500;
+}
 /* button */
 .btn {
   @apply rounded-md border border-yellow-500 bg-yellow-500 px-5 py-2 duration-300;

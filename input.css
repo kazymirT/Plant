@@ -60,3 +60,7 @@ h3 {
 .popular__card:hover img {
   @apply -top-8;
 }
+
+.swiper-pagination-bullet {
+  @apply h-3 w-3 bg-green-500 !important;
+}

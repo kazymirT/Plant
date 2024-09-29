@@ -3,18 +3,11 @@
 
 **[Visit Plant](https://plants-2024.netlify.app/)**
 
-## Key Features
+## Key Features and Technologies
 * Scroll Animations: All sections include scroll-triggered animations, implemented with ScrollReveal.js.
 * Interactive Reviews: The Review section uses Swiper.js to showcase user reviews interactively.
-* Icon Integration: The project incorporates icons from the Remix Icons library.
-* Tailwind CSS: The site is styled using Tailwind CSS for a clean and modern look.
-
-  
-## Technologies Used
-* ScrollReveal.js for animations
-* Swiper.js for review slider functionality
-* Remix Icons for iconography
-* Tailwind CSS for responsive and flexible styling
+* Icon Integration: Icons are provided by the Remix Icons library.
+* Tailwind CSS: The site is styled using Tailwind CSS for a responsive and modern look.
 
 ## Project Overview
 

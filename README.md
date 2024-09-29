@@ -8,6 +8,7 @@
 * Interactive Reviews: The Review section uses Swiper.js to showcase user reviews interactively.
 * Icon Integration: Icons are provided by the Remix Icons library.
 * Tailwind CSS: The site is styled using Tailwind CSS for a responsive and modern look.
+* Prettier and Husky: Prettier is used for automatic code formatting, with Husky configured to run Prettier on pre-commit to ensure consistent code style.
 
 ## Project Overview
 
